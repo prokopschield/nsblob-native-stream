@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import fs from 'fs';
-import nsblob from 'nsblob';
+import nsblob from 'nsblob-native-if-available';
 
 import { saturate, store } from '.';
 

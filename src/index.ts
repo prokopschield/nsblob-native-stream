@@ -1,6 +1,6 @@
 import fs from 'fs';
 import http from 'http';
-import nsblob from 'nsblob';
+import nsblob from 'nsblob-native-if-available';
 import { PassThrough, Readable, Writable } from 'stream';
 
 const CHUNK_LENGTH = 0x10000;
